@@ -1,0 +1,9 @@
+<p>
+  my-component works!
+</p>
+
+<router-outlet name="my-component"></router-outlet>
+
+
+<button [routerLink]="[{outlets: {'my-component': 'a'}}]"> Go to A</button>
+<button [routerLink]="[{outlets: {'my-component': 'b'}}]"> Go to B</button>
